@@ -1,0 +1,57 @@
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 2rem;
+}
+
+p {
+    text-align: center;
+}
+
+.customerList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem;
+}
+
+.personDiv {
+    flex: 1 1 25%;
+    margin: 3rem;
+}
+
+.pic {
+    max-width: 20vw;
+    height: 65vh;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline solid teal;
+}
+
+.email {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.address {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.cell {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 3rem;
+}
