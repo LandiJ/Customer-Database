@@ -15,17 +15,15 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 4rem;
+    margin-top: 4rem;
 }
 
 .personDiv {
     flex: 1 1 25%;
-    margin: 3rem;
 }
 
 .pic {
-    max-width: 20vw;
-    height: 65vh;
+    width: 85%;
 }
 
 .name {
@@ -37,7 +35,9 @@ p {
 
 .email {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #dedede;
 }
 
 .address {
@@ -54,4 +54,11 @@ p {
     font-size: 17px;
     line-height: 20px;
     margin-bottom: 3rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 25%;
 }
